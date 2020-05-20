@@ -3,13 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <PackageId>Quick.WpfToolkit</PackageId>
-    <Version>3.3.1</Version>
+    <Version>3.3.2</Version>
     <Authors>aaasoft</Authors>
     <Company />
     <PackageLicenseFile>license.md</PackageLicenseFile>
     <Product>WpfToolkit</Product>
     <Description>A .NET Core portal for Extended WPF Toolkit.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/aaasoft/Quick.WpfToolkit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aaasoft/Quick.WpfToolkit</RepositoryUrl>
     <NuspecFile>package.nuspec</NuspecFile>
     <NuspecProperties>$(NuspecProperties);configuration=$(Configuration)</NuspecProperties>
     <NuspecProperties>$(NuspecProperties);version=$(Version)</NuspecProperties>
