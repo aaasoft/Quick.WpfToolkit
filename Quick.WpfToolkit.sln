@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xceed.Wpf.AvalonDock", "Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj", "{414C8B0D-3F5B-4FFB-AB98-9FC471902941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{59F9A84B-4738-48D2-97CD-4654B4B5FCBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xceed.Wpf.AvalonDock.Themes.Aero", "Xceed.Wpf.AvalonDock.Themes.Aero\Xceed.Wpf.AvalonDock.Themes.Aero.csproj", "{89F0C390-78A4-4200-8839-5B3ECDC7A076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xceed.Wpf.AvalonDock.Themes.Metro", "Xceed.Wpf.AvalonDock.Themes.Metro\Xceed.Wpf.AvalonDock.Themes.Metro.csproj", "{35E7F8D9-2245-4724-9DCC-652FFDA96E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xceed.Wpf.AvalonDock.Themes.VS2010", "Xceed.Wpf.AvalonDock.Themes.VS2010\Xceed.Wpf.AvalonDock.Themes.VS2010.csproj", "{ED283B69-F4B0-4B25-9A91-4CCB20C568C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xceed.Wpf.Toolkit", "Xceed.Wpf.Toolkit\Xceed.Wpf.Toolkit.csproj", "{3936D7FC-A9B9-4283-B97F-2F89A569A1A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414C8B0D-3F5B-4FFB-AB98-9FC471902941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414C8B0D-3F5B-4FFB-AB98-9FC471902941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414C8B0D-3F5B-4FFB-AB98-9FC471902941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414C8B0D-3F5B-4FFB-AB98-9FC471902941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F0C390-78A4-4200-8839-5B3ECDC7A076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F0C390-78A4-4200-8839-5B3ECDC7A076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F0C390-78A4-4200-8839-5B3ECDC7A076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F0C390-78A4-4200-8839-5B3ECDC7A076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E7F8D9-2245-4724-9DCC-652FFDA96E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E7F8D9-2245-4724-9DCC-652FFDA96E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E7F8D9-2245-4724-9DCC-652FFDA96E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E7F8D9-2245-4724-9DCC-652FFDA96E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED283B69-F4B0-4B25-9A91-4CCB20C568C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED283B69-F4B0-4B25-9A91-4CCB20C568C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED283B69-F4B0-4B25-9A91-4CCB20C568C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED283B69-F4B0-4B25-9A91-4CCB20C568C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3936D7FC-A9B9-4283-B97F-2F89A569A1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3936D7FC-A9B9-4283-B97F-2F89A569A1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3936D7FC-A9B9-4283-B97F-2F89A569A1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3936D7FC-A9B9-4283-B97F-2F89A569A1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89F0C390-78A4-4200-8839-5B3ECDC7A076} = {59F9A84B-4738-48D2-97CD-4654B4B5FCBC}
+		{35E7F8D9-2245-4724-9DCC-652FFDA96E33} = {59F9A84B-4738-48D2-97CD-4654B4B5FCBC}
+		{ED283B69-F4B0-4B25-9A91-4CCB20C568C5} = {59F9A84B-4738-48D2-97CD-4654B4B5FCBC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C749414-967D-4FBE-9D03-8875D7177616}
+	EndGlobalSection
+EndGlobal

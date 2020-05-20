@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Themes\Generic\Images\DockBottom.PNG" />
+    <None Remove="Themes\Generic\Images\DockLeft.PNG" />
+    <None Remove="Themes\Generic\Images\DockPane.PNG" />
+    <None Remove="Themes\Generic\Images\DockPaneEmpty.png" />
+    <None Remove="Themes\Generic\Images\DockRight.PNG" />
+    <None Remove="Themes\Generic\Images\DockTop.PNG" />
+    <None Remove="Themes\Generic\Images\HTabGroup.png" />
+    <None Remove="Themes\Generic\Images\InnerDockDocPaneBottom.png" />
+    <None Remove="Themes\Generic\Images\InnerDockDocPaneLeft.png" />
+    <None Remove="Themes\Generic\Images\InnerDockDocPaneRight.png" />
+    <None Remove="Themes\Generic\Images\InnerDockDocPaneTop.png" />
+    <None Remove="Themes\Generic\Images\InnerDockPaneBottom.png" />
+    <None Remove="Themes\Generic\Images\InnerDockPaneInside.png" />
+    <None Remove="Themes\Generic\Images\InnerDockPaneLeft.png" />
+    <None Remove="Themes\Generic\Images\InnerDockPaneRight.png" />
+    <None Remove="Themes\Generic\Images\InnerDockPaneTop.png" />
+    <None Remove="Themes\Generic\Images\Locked.png" />
+    <None Remove="Themes\Generic\Images\PinAutoHide.png" />
+    <None Remove="Themes\Generic\Images\PinClose.png" />
+    <None Remove="Themes\Generic\Images\PinDocMenu.png" />
+    <None Remove="Themes\Generic\Images\PinMaximize.png" />
+    <None Remove="Themes\Generic\Images\PinMenu.png" />
+    <None Remove="Themes\Generic\Images\PinRestore.png" />
+    <None Remove="Themes\Generic\Images\VTabGroup.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Themes\Generic\Images\DockBottom.PNG" />
+    <Resource Include="Themes\Generic\Images\DockLeft.PNG" />
+    <Resource Include="Themes\Generic\Images\DockPane.PNG" />
+    <Resource Include="Themes\Generic\Images\DockPaneEmpty.png" />
+    <Resource Include="Themes\Generic\Images\DockRight.PNG" />
+    <Resource Include="Themes\Generic\Images\DockTop.PNG" />
+    <Resource Include="Themes\Generic\Images\HTabGroup.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockDocPaneBottom.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockDocPaneLeft.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockDocPaneRight.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockDocPaneTop.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockPaneBottom.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockPaneInside.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockPaneLeft.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockPaneRight.png" />
+    <Resource Include="Themes\Generic\Images\InnerDockPaneTop.png" />
+    <Resource Include="Themes\Generic\Images\Locked.png" />
+    <Resource Include="Themes\Generic\Images\PinAutoHide.png" />
+    <Resource Include="Themes\Generic\Images\PinClose.png" />
+    <Resource Include="Themes\Generic\Images\PinDocMenu.png" />
+    <Resource Include="Themes\Generic\Images\PinMaximize.png" />
+    <Resource Include="Themes\Generic\Images\PinMenu.png" />
+    <Resource Include="Themes\Generic\Images\PinRestore.png" />
+    <Resource Include="Themes\Generic\Images\VTabGroup.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

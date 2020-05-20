@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DataGridControl.icon.16x16.bmp" />
+    <None Remove="NoDrop.cur" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="DataGridControl.icon.16x16.bmp" />
+    <EmbeddedResource Include="NoDrop.cur" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xceed.Wpf.Toolkit\Xceed.Wpf.Toolkit.csproj" />
+  </ItemGroup>
+
+</Project>
