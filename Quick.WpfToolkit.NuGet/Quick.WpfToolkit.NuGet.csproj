@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageId>Quick.WpfToolkit</PackageId>
+    <Version>3.3.0</Version>
+    <Authors>aaasoft</Authors>
+    <Company />
+    <PackageLicenseFile>license.md</PackageLicenseFile>
+    <Product>WpfToolkit</Product>
+    <Description>A .NET Core portal for Extended WPF Toolkit.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NuspecFile>package.nuspec</NuspecFile>
+    <NuspecProperties>$(NuspecProperties);configuration=$(Configuration)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);version=$(Version)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);id=$(PackageId)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);author=$(Authors)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);PackageLicenseFile=$(PackageLicenseFile)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);PackageProjectUrl=$(PackageProjectUrl)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);Description=$(Description)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);PackageReleaseNotes=$(PackageReleaseNotes)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);Copyright=$(Copyright)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);PackageTags=$(PackageTags)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);RepositoryType=$(RepositoryType)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);RepositoryUrl=$(RepositoryUrl)</NuspecProperties>
+    <NuspecProperties>$(NuspecProperties);LicenseFilePath=..\license.md</NuspecProperties>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xceed.Wpf.AvalonDock.Themes.Aero\Xceed.Wpf.AvalonDock.Themes.Aero.csproj" PrivateAssets="All">
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Xceed.Wpf.AvalonDock.Themes.Metro\Xceed.Wpf.AvalonDock.Themes.Metro.csproj" PrivateAssets="All">
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Xceed.Wpf.AvalonDock.Themes.VS2010\Xceed.Wpf.AvalonDock.Themes.VS2010.csproj" PrivateAssets="All">
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj" PrivateAssets="All">
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Xceed.Wpf.Toolkit\Xceed.Wpf.Toolkit.csproj" PrivateAssets="All">
+      <Private>true</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\license.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
